@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="plugin/custom-scroll/jquery.custom-scroll.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__nav">
+				<div class="header__nav-item">
+					<a href="/" class="header__top-link">
+						<div class="header__top-logo"></div>
+					</a>
+				</div>
+				<div class="header__nav-item">
+					<div class="header__nav-search">
+						<input class="header__nav-search-input" type="search" placeholder="Поиск" />
+					</div>
+				</div>
+				<div class="header__nav-item">
+					<div class="header__nav-notice" title="Уведомления">
+						<div class="header__nav-notice-icn"></div>
+					</div>
+				</div>
+				<div class="header__nav-item">
+					<a href="javascript:void(0)" class="header__nav-profile-link">
+						<div class="header__nav-profile-name">User</div>
+						<img src="img/multichat_flat.png" alt="" class="header__nav-profile-img">
+						<div class="header__nav-profile-arrow"></div>
+					</a>
+					<div class="header__nav-menu">
+						<a href="#" class="header__nav-menu-link">
+							Моя страница
+						</a>
+						<div class="header__nav-menu-sep"></div>
+						<a href="#" class="header__nav-menu-link">
+							Моя страница
+						</a>
+						<a href="#" class="header__nav-menu-link">
+							Моя страница
+						</a>
+						<div class="header__nav-menu-sep"></div>
+						<a href="#" class="header__nav-menu-link">
+							Выйти
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="page-layout">
+		<div class="container">
+			<aside class="sidebar">
+				<div class="sidebar__inner">
+					<nav class="sidebar__nav">
+						<ul class="sidebar__nav-list">
+							<li class="sidebar__nav-item sidebar-profile">
+								<a href="#" class="sidebar__nav-link">
+									<span class="sidebar__nav-icn"></span>
+									<span class="sidebar__nav-text">Моя страница</span>
+								</a>
+							</li>
+							<li class="sidebar__nav-item sidebar-news">
+								<a href="#" class="sidebar__nav-link">
+									<span class="sidebar__nav-icn"></span>
+									<span class="sidebar__nav-text">Новости</span>
+								</a>
+							</li>
+							<li class="sidebar__nav-item sidebar-message">
+								<a href="#" class="sidebar__nav-link">
+									<span class="sidebar__nav-icn"></span>
+									<span class="sidebar__nav-text">Сообщения</span>
+								</a>
+							</li>
+							<li class="sidebar__nav-item sidebar-profile">
+								<a href="#" class="sidebar__nav-link">
+									<span class="sidebar__nav-icn"></span>
+									<span class="sidebar__nav-text">Моя страница</span>
+								</a>
+							</li>
+							<li class="sidebar__nav-item sidebar-news">
+								<a href="#" class="sidebar__nav-link">
+									<span class="sidebar__nav-icn"></span>
+									<span class="sidebar__nav-text">Новости</span>
+								</a>
+							</li>
+							<li class="sidebar__nav-item sidebar-message">
+								<a href="#" class="sidebar__nav-link">
+									<span class="sidebar__nav-icn"></span>
+									<span class="sidebar__nav-text">Сообщения</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</aside>
+			<main class="main">
+				<div class="dialog">
+					<header class="dialog__header">
+						<div class="dialog__header-search">
+							<input type="text" class="dialog__header-search-input" placeholder="Поиск">
+							<div class="dialog__header-btn">
+								<div class="dialog__header-important">
+									15
+								</div>
+								<div class="dialog__header-sel">
+									<button class="dialog__header-sel-btn"></button>
+								</div>
+							</div>
+						</div>
+					</header>
+					<div class="dialog__body">
+						<ul class="dialog__body-list">
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">99</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">99</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+							<li class="dialog__body-item">
+								<div class="dialog__photo">
+									<img src="img/multichat_flat.png" alt="" class="dialog__photo-img">
+								</div>
+								<div class="dialog__content">
+									<div class="dialog__content-title">
+										<span class="dialog__content-name">Lorem ipsum dolor sit amet</span>
+									</div>
+									<div class="dialog__content-last-msg">
+										<span class="dialog__content-who">User: </span>
+										<p class="dialog__content-preview-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+									<time class="dialog__content-time">18:26</time>
+									<div class="dialog__content-unread">5</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<footer class="dialog__footer">
+						<div class="dialog__footer-filters-wrap">
+							<div class="dialog__footer-filter">Показаны все беседы</div>
+						</div>
+						<div class="dialog__footer-settings">
+							
+						</div>
+					</footer>
+				</div>
+				<div class="msg-box">
+					
+				</div>
+			</main>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="plugin/custom-scroll/jquery.custom-scroll.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
