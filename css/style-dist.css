@@ -35,9 +35,11 @@ img{
   clear: both;
 }
 input[type]{
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 *{
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 body{
@@ -72,7 +74,11 @@ body{
 }
 
 .header__top-link {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 	width: 165px;
 	height: 45px;
@@ -82,6 +88,8 @@ body{
 
 .header__nav {
 	display: -webkit-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -93,6 +101,7 @@ body{
     line-height: 16px;
     border-radius: 14px;
     -o-transition: background-color 0.05s, color 0.05s;
+    -webkit-transition: background-color 0.05s, color 0.05s;
     transition: background-color 0.05s, color 0.05s;
     background: #305075 url(../img/ic_head_loupe.svg) no-repeat;
     padding-left: 19px;
@@ -107,7 +116,11 @@ body{
 .header__nav-search-input:-ms-input-placeholder      {color:#d9e2ec;}
 
 .header__nav-search {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 	height: 100%;
 }
@@ -141,7 +154,11 @@ body{
 
 .header__nav-profile-link {
 	display: block;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 	height: 100%;
 	text-decoration: none;
@@ -185,15 +202,18 @@ body{
 	padding: 4px 0;
     border: 1px solid #c5d0db;
 	border-radius: 4px;
+    -webkit-box-shadow: 0 1px 7px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 7px 0px rgba(0, 0, 0, 0.25);
 	visibility: hidden;
 	opacity: 0;
+	-webkit-transition: opacity 0.3s ease-in, visibility 0.35s;
 	transition: opacity 0.3s ease-in, visibility 0.35s;
 	
 }
 .header__nav-profile-link:focus ~ .header__nav-menu{
 	visibility: visible;
 	opacity: 1;
+	-webkit-transition: opacity 0.3s ease-in, visibility 0.35s;
 	transition: opacity 0.3s ease-in, visibility 0.35s;
 }
 
@@ -258,6 +278,8 @@ body{
 }
 
 .sidebar__nav-link {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	text-decoration: none;
     padding: 2px 0;
@@ -270,11 +292,17 @@ body{
 }
 
 .sidebar__nav-text {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
 .main {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 46px;
 	padding-left: 155px;
@@ -286,6 +314,8 @@ body{
 }
 .dialog__header-search{
 	display: -webkit-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .dialog__header-search-input {
@@ -293,6 +323,8 @@ body{
 	border-color: transparent;
     padding: 15px 10px 15px 26px;
     height: 48px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 	background: url(../img/ic_head_loupe.svg) no-repeat 0;
 }
@@ -303,17 +335,23 @@ body{
 .dialog {
 	background: #fff;
     width: 320px;
+    -webkit-box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
 }
 
 .dialog__header-btn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
 .dialog__header-important {
     color: #929eb0;
     padding: 18px 6px 15px 19px;
+	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
     position: relative;
     z-index: 10;
@@ -322,6 +360,7 @@ body{
 }
 
 .dialog__header-sel {
+	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
     width: 14px;
     height: 14px;
@@ -358,11 +397,14 @@ body{
 }
 
 .dialog__body-item {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0 15px 0;
     display: block;
     width: 100%;
     cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -382,6 +424,8 @@ body{
     position: relative;
 }
 .dialog__content-title{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 4px 0 6px;
 }
@@ -417,6 +461,8 @@ body{
 }
 
 .dialog__content-last-msg {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
     width: 75%;
 }
@@ -439,6 +485,8 @@ body{
 }
 
 .dialog__footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
     border-top: solid 1px #e4e6e9;
 }
@@ -450,6 +498,7 @@ body{
 .dialog__footer-settings {
 	background: url(../img/msg_cog.png) center no-repeat;
 	background-size: 18px;
+	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 	width: 18px;
 	height: 18px;
@@ -462,11 +511,16 @@ body{
 .msg-history {
 	width: 100%;
 	background: #fff;
+    -webkit-box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
 }
 
 .msg-history__header {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 	border-radius: 2px 2px 0 0;
 	height: 48px;
@@ -474,8 +528,13 @@ body{
 }
 
 .msg-history__title {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-sizing: content-box;
     box-sizing: content-box;
     padding: 15px 20px;
     height: 18px;
@@ -489,13 +548,20 @@ body{
 }
 
 .msg-history__name {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex; 
+	-webkit-box-flex: 1; 
+	-ms-flex: 1 1 auto; 
 	flex: 1 1 auto; 
+	-webkit-box-sizing: border-box; 
 	box-sizing: border-box;
 	max-width: 50%;
 	color: #222;
 }
 .msg-history__name-link {
+ 	-webkit-box-flex: 1;
+ 	-ms-flex: 1 1 auto;
  	flex: 1 1 auto; 
     overflow: hidden;
     color: #222;
@@ -509,7 +575,11 @@ body{
 
 
 .msg-history__status {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     margin-left: 8px;
     color: #939393;
@@ -531,7 +601,11 @@ body{
 
 
 .msg-history__aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     min-width: 153px;
     height: 48px;
@@ -590,6 +664,8 @@ body{
 	padding: 15px 0;
 }
 .msg-history__chat-item{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	position: relative;
     padding: 0 45px;
