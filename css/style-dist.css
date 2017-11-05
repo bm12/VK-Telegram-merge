@@ -693,6 +693,9 @@ body{
 	position: relative;
     padding: 0 45px;
 }
+.msg-history__chat-item:last-child {
+    margin-bottom: 15px;
+}
 .msg-history__photo {
     min-width: 40px;
 }
@@ -728,6 +731,7 @@ body{
     padding-top: 1.25em;
     padding-left: 15px;
 }
+
 
 .msg-history__msg {
 	padding: 6px 0;
