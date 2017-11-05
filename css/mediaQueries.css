@@ -1,0 +1,31 @@
+@media only screen and (max-width:1200px){
+	.container{
+		width: 990px;
+	}
+}
+@media only screen and (max-width:992px){
+	.container{
+		width: 768px;
+	}
+	.sidebar{
+		width: 130px;
+	}
+	.main{
+		padding-left: 135px;
+	}
+	.dialog{
+		width: 270px;
+	}
+	.msg-history{
+		width: 100%;
+	}
+	.msg-history__chat-item{
+		padding: 0 15px;
+	}
+	.msg-history__user{
+		left: 55px;
+	}
+	.post__header-info{
+		width: 70%;
+	}
+}

@@ -347,7 +347,8 @@ body{
 
 
 .dialog__body{
-    max-height: 800px;
+/*    max-height: 800px;*/
+    height: calc(100vh - 160px);
     overflow: hidden;
 }
 .custom-scroll_bar-y{
@@ -607,7 +608,8 @@ body{
 .msg-history__chat-wrap{
 	padding: 15px 0;
 /*    max-height: 785px;*/
-    height: 785px;
+/*    height: 785px;*/
+	height: calc(100vh - 176px);
     overflow: hidden;
 }
 .msg-history__chat-item{
